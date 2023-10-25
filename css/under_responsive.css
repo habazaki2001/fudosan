@@ -1,0 +1,168 @@
+@media screen and (min-width: 751px) {
+.lightbox,
+.lightboxOverlay{min-width: var(--site_size);}
+
+
+/* HOVER */
+.under main #topic_path li a:hover{color: var(--mcolor);text-decoration: underline;}
+.under main .bnn a:hover{opacity: 0.7;}
+
+.under main .blank{color: var(--green01);}
+.under main .link:hover{color: var(--scolor);}
+
+.under main .frame_pick p{font-size: 20px;line-height: 1.7em;}
+
+}
+
+@media screen and (max-width: 750px) {
+.under main #content{padding:80px 0 80px}
+.under main #content::before{width: calc(100% - 30px);top: 430px;height: 150px;border-radius: 75px 0 0 75px;}
+
+.under main section.pb200,
+.under main section{padding:0 0 60px;}
+
+.under main .image_r,
+.under main .image_l{float:none;display:inline-block;width:100%;text-align:center;margin:0 auto 30px !important}
+.under main p{font-size: 15px;}
+
+/*==========================================================
+                 C U S T O M
+==========================================================*/
+/*  TOP INFO  */
+.under main #top_info{}
+.under main #top_info::before{width: calc(100% - 15px);}
+.under main #top_info::after{width: calc(100% - 50px);height: 60px;bottom: -30px;}
+
+.under main #top_info .inner{padding: 45px 30px 45px 15px;}
+.under main #top_info .inner::before{width: 272px;height: 81px;top: calc(50% - 40px);left: 0;}
+
+.under main #topic_path{margin-bottom: 30px;}
+.under main #topic_path ul{padding: 40px 0 15px;}
+.under main #topic_path li,
+.under main #topic_path li a{font-size: 14px;display: inline;}
+.under main #topic_path li:not(:last-child)::after{margin:0 5px 0 7px;top: 2px;}
+
+/*============ HEAD TITLE ============ */
+.under main h2{font-size:25px;}
+.under main h3{font-size:24px;padding-bottom: 10px;margin-bottom: 20px;}
+.under main h3 .en{font-size: 18px;}
+.under main h3::before{height: 3px;}
+.under main h4{font-size:22px;padding-left: 15px;margin-bottom: 20px;}
+.under main h4::before{width: 4px;top: 2px;}
+.under main h4::after{width: 4px;bottom: -2px;}
+.under main h5{font-size:20px;margin-bottom: 30px;padding: 10px 15px;}
+.under main h6{font-size:18px;margin-bottom: 30px;}
+
+/*============ TABLE ============ */
+.under main table{margin-bottom:30px}
+.under main table th{padding:15px 5px;font-size: 18px;border-left: none;border-right: none;}
+.under main table td{padding:15px 10px;font-size: 15px;border-top-color: var(--green01);border-bottom-color: var(--green01);border-left: none;border-right: none;}
+.under main table.tb_block{border-bottom: 2px solid var(--green01);}
+.under main table.tb_block tr{display:flex;flex-direction:column}
+.under main table.tb_block th,
+.under main table.tb_block th.sp{border-top-width: 2px;border-bottom-width:2px ;}
+.under main table.tb_block td + td{border-top: none;}
+.under main table.tb_block th,
+.under main table.tb_block td{width: 100%;}
+
+/* TABLE SCROLL */
+.under main .tb_scroll{overflow:scroll;}
+.under main .tb_scroll:not(:last-child){margin-bottom: 30px;}
+.under main .tb_scroll table{width: 800px;}
+.under main .tb_note{margin-bottom: 10px;color: #999;font-size: 14px;}
+
+/*============ LIST ============ */
+.under main .list01{}
+.under main .list01 li{font-size: 18px;margin-bottom: 10px;padding-left: 25px;}
+.under main .list01 li::before{width: 15px;height: 15px;border-width: 3px;top: 8px;}
+
+/* LIST FAQ */
+.under main .list_faq dl{margin-bottom: 30px;}
+.under main .list_faq dt{font-size: 18px;min-height: 50px;border-width: 1px;}
+.under main .list_faq dt span,
+.under main .list_faq dd span{width: 60px;height: 50px;margin-right: 10px;border-radius: 5px 25px 25px 5px;font-size: 18px;}
+.under main .list_faq dd{padding-left: 70px;}
+
+/* List STEP */
+.under main .list_step dl{margin-bottom: 30px;padding-bottom: 40px}
+.under main .list_step dt{font-size: 18px;line-height: 1.25em;padding-right: 15px;}
+.under main .list_step dt span{font-size: 18px;line-height: 1.25em;width: 100px;padding: 20px 5px;flex-shrink: 0;}
+.under main .list_step dd{font-size: 15px;padding: 15px;}
+
+
+
+
+/*============ FRAME ============ */
+.under main .frame01{padding:30px 15px}
+
+.under main .frame02{padding:30px 15px}
+
+.under main .frame_pick{padding: 0 15px 20px;border-width:2px;margin: 80px 0 0 15px;border-radius: 20px;}
+.under main .frame_pick .pick_ttl{font-size: 20px;border-radius: 3px;margin:-50px 0 20px;padding: 10px 25px 10px 35px;text-align: center;}
+.under main .frame_pick .pick_ttl::before{width: 80px;height: 80px;top: -12px;left: -45px;}
+
+/* OVN */
+.under main .list_ovn {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+.under main .list_ovn li .img {
+    margin-bottom: 20px;
+}
+.under main .list_ovn li .ovn_title {
+    min-height: auto;
+    margin-bottom: 12px;
+}
+.under.ovn_dt main .btn_list {
+    flex-wrap: wrap;
+}
+.under.ovn_dt main .btn_list .btn:not(:last-child) {
+    margin:0 0 25px;
+}
+
+.under.ovn_dt main .image_l img, .under.ovn_dt main .image_r img ,.under.ovn main .image_center img{
+    max-height: 200px;
+}
+
+/* fmail */
+.ft_info_tel.bnn_tel {
+    border: 2px solid var(--green01);
+    padding: 20px;
+    border-radius: 5px;
+}
+.ft_info_tel.bnn_tel a {
+    font-size: 28px;
+}
+.ft_info_tel.bnn_tel .time {
+    font-size: 15px;
+}
+
+/*============ ORTHER ============ */
+.under main .box_map{height:250px}
+
+
+
+}
+
+
+/* IPHONE 14 */
+@media screen and (max-width: 440px) {
+/*============ ORTHER ============ */
+.under main .pc440{display: none;}
+/* OVN */
+.under main .list_ovn {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
+}
+.under main .list_ovn li .img {
+    height: 50vw;
+}
+}
+
+
+/* IPHONE 6 */
+@media screen and (max-width: 360px) {
+
+}

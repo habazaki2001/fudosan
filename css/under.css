@@ -1,0 +1,332 @@
+/*==========================================================
+                        C U S T O M
+==========================================================*/
+.under main .image_l{float:left;margin:0 50px 0 0}
+.under main .image_r{float:right;margin:0 0 0 50px}
+.under main .image_l.radius img{border-radius: 50px 999px 999px 50px;}
+.under main .image_r.radius img{border-radius: 999px 50px 50px 999px;}
+
+/* MB */
+.under main .mb10{margin-bottom:10px}
+.under main .mb20{margin-bottom:20px}
+.under main .mb30{margin-bottom:30px}
+.under main .mb40{margin-bottom:40px}
+.under main .mb50{margin-bottom:50px}
+.under main .mb60{margin-bottom:60px}
+.under main .mb70{margin-bottom:70px}
+.under main .mb80{margin-bottom:80px}
+.under main .mb90{margin-bottom:90px}
+.under main .mb100{margin-bottom:100px}
+
+/* MT */
+.under main .mt10{margin-top:10px}
+.under main .mt20{margin-top:20px}
+.under main .mt30{margin-top:30px}
+.under main .mt40{margin-top:40px}
+.under main .mt50{margin-top:50px}
+.under main .mt60{margin-top:60px}
+.under main .mt70{margin-top:70px}
+.under main .mt80{margin-top:80px}
+.under main .mt90{margin-top:90px}
+
+/* MAX_W */
+.under main .max_w200{width:100%;max-width:200px}
+.under main .max_w250{width:100%;max-width:250px}
+.under main .max_w300{width:100%;max-width:300px}
+.under main .max_w350{width:100%;max-width:350px}
+.under main .max_w500{width:100%;max-width:500px}
+.under main .max_w600{width:100%;max-width:600px}
+.under main .max_w700{width:100%;max-width:700px}
+.under main .max_w800{width:100%;max-width:800px}
+.under main .max_w900{width:100%;max-width:900px}
+
+/* MIN-W */
+.under main .min_w200{min-width:200px}
+.under main .min_w250{min-width:250px}
+.under main .min_w300{min-width:300px}
+.under main .min_w350{min-width:350px}
+.under main .min_w500{min-width:500px}
+
+/*==========================================================
+                        H E A D I N G
+==========================================================*/
+.under main h2,
+.under main h3,
+.under main h4,
+.under main h5,
+.under main h6{font-weight: bold;margin-bottom: 45px;color: var(--scolor);}
+
+.under main h2{font-size: 52px;margin-bottom: 0;color: #fff;position: relative;z-index: 2;}
+
+.under main h3{font-size: 42px;position: relative;padding-bottom: 18px;margin-bottom: 50px;}
+.under main h3 .en{font-size: 24px; color: var(--green01); display: block;font-weight: 900;line-height: 1em;letter-spacing: 0.04em;text-transform: uppercase;}
+.under main h3::before{width: 100%;height: 6px;background: var(--green01);position: absolute;bottom: 0;left: 0;border-radius: 999px;content: '';}
+
+.under main h4{font-size: 36px;position: relative;padding-left: 30px;line-height: 1.45;}
+.under main h4::before{content: "";position: absolute; width:8px;height: 50%;background-color: #c2d154;left: 0;top: 5px;border-radius: 999px 999px 0 0;}
+.under main h4::after{content: "";position: absolute; width:8px;height: 50%;background-color: #a9b935;left: 0;bottom: -5px;border-radius: 0 0 999px 999px;}
+
+.under main h5{font-size: 30px;background: #f2f8cf;padding: 11px 30px;margin-bottom: 50px;}
+.under main h6{font-size: 24px;position: relative;padding-bottom: 5px;}
+.under main h6::before,
+.under main h6::after{content: ""; position: absolute;height: 3px;left: 0; bottom: -5px;}
+.under main h6::before{background-color: var(--mcolor);width: 50px;left: 0;z-index: 2;}
+.under main h6::after{background-color: #ccc;width: 100%;}
+
+/*==========================================================
+                        FONT FAMILY
+==========================================================*/
+.under main .en{font-family: var(--f-lato);}
+
+/*==========================================================
+                      MAIN - CONTENT
+==========================================================*/
+.under main #content{padding: 165px 0 120px;position: relative;}
+.under main #content::before{width: calc(100% - 92px);height: 300px;border-radius: 999px 0 0 999px;position: absolute;top: 744px;right: 0;content: '';z-index: -1;background: #f2f8cf;}
+.under main #content::after{width: calc(100% - 92px);height: 500px;border-radius: 0 999px 999px 0;position: absolute;top: 2250px;left: 0;content: '';z-index: -1;background: #fbfdf0;}
+.under main #content::after{}
+.under main section{padding:0 0 100px;margin-bottom:0}
+.under main section.pb200{padding-bottom:200px;}
+.under main section:last-child{padding:0}
+
+/* LINK + BUTTON TOP */
+.under main .link{text-decoration: underline;color: var(--mcolor);}
+.under main p{line-height: 1.78em;margin-bottom: 30px;}
+
+/*============ TOP INFO ============ */
+.under main #top_info{width:100%;max-width:1920px;margin:0 auto;position: relative;}
+.under main #top_info::before{width: calc(100% - 91px);height: 100%;position: absolute;top: 0;left: 0;content: '';background: #a9b935;border-radius: 0 999px 999px 0;}
+.under main #top_info::after{width: 591px;height: 168px;background: #b5c543;opacity: 0.8;border-radius: 999px 0 0 999px;position: absolute;bottom: -76px;right: 0;content: '';}
+.under main #top_info .inner{padding: 63px 15px 67px;}
+.under main #top_info .inner::before{background: url('../images/top_info_ic.png') center /cover no-repeat;width: 544px;height: 162px;content: '';position: absolute;top: 27px;left: -382px;}
+
+/*==========================================================
+                    T O P I C   P A T H
+==========================================================*/
+.under main #topic_path{margin-bottom: 50px}
+.under main #topic_path ul{display:block;padding: 23px 0}
+.under main #topic_path li{display:inline-block;position: relative;}
+.under main #topic_path li:not(:last-child)::after{content:"";position:relative;width:6px;height:12px;background:url('../images/topic_path_ic.png') no-repeat center /cover;display: inline-block;margin: 0 17px 0 20px;pointer-events: none;}
+.under main #topic_path li{color: var(--txt);}
+
+
+/*============ LIST ANCHOR LINK ============ */
+.under main .list_anchor{display: flex; align-items: center; flex-wrap: wrap; justify-content: center;width:100%;margin-bottom: 30px;}
+.under main .list_anchor .btn{margin: 0 10px 15px}
+.under main .list_anchor:last-child{margin-bottom: -15px;}
+
+
+/*==========================================================
+                        T A B L E
+==========================================================*/
+.under main table.td_top td{vertical-align:top}
+.under main table.tb_fix{table-layout: fixed;}
+
+.under main table{margin-bottom: 30px;}
+.under main table.mailform th,
+.under main table th{background: none;color: var(--scolor);font-weight:bold;font-size: 26px;}
+.under main table.mailform td .info{color:var(--mcolor)}
+
+.under main table td{border-color: #c6d559;border-left: 1px solid #fff;border-right: none;border-width: 2px;}
+.under main table th,
+.under main table td{padding: 33px 5px;}
+.under main table img{display:block;margin:auto;}
+
+.under main table th{border:3px solid  var(--green01);border-left: none;border-right: 1px solid #fff;}
+
+
+/*============ LIST ============ */
+/* LIST 01 */
+.under main .list01{margin-bottom: 30px;}
+.under main .list01 li{display:block;padding-left:37px;margin-bottom: 17px;position:relative;font-size: 22px;font-weight: bold;}
+.under main .list01 li::before{background: #fff;width:25px;height:25px;position:absolute;top:6px;left:0;content:'';border-radius: 50%;border:5px solid var(--scolor)}
+
+/* LIST 02 */
+.under main .list02{margin-bottom: 30px;}
+.under main .list02 li{counter-increment: li; padding-left: 30px;position: relative;margin-bottom: 10px;}
+.under main .list02 li::before{ content: counter(li);position: absolute;width: 22px;height: 22px;display: flex;justify-content: center;align-items: center;border-radius: 50%;left: 0; top: 2px; background-color: var(--mcolor);font-size: 12px;font-weight: bold;color: #FFF;line-height: 22px;}
+
+/* LIST CHECK */
+.under main .list_check{margin-bottom: 30px;}
+.under main .list_check li{display:block;padding-left:25px;margin-bottom:5px;position:relative}
+.under main .list_check li::before{content: ''; display: block; position: absolute; top: 5px; left: 5px; width: 7px; height: 15px; border: solid var(--mcolor); border-width: 0 2px 2px 0; transform: rotate(45deg);}
+
+/* LIST FAQ */
+.under main .list_faq{margin-bottom: 30px;}
+.under main .list_faq dl{margin-bottom: 50px}
+.under main .list_faq dt{position: relative;font-size: 24px;font-weight: bold;line-height: 1.5em;margin-bottom: 10px;border-bottom: 2px dashed var(--green01);display: flex;align-items: center;display: flex;align-items: center;padding-bottom: 15px;color: var(--scolor);}
+.under main .list_faq dt span{width: 80px;height: 60px;font-weight: bold;text-align:center;line-height: 1em;background: #fff;margin-right: 15px;display: flex;align-items: center;justify-content: center;text-align: center;flex-shrink: 0;font-family: var(--f-lato);font-weight: bold;border-radius: 5px 30px 30px 5px;background: var(--green01);color: #fff;}
+.under main .list_faq dd{position: relative;padding-left: 95px;min-height: 62px}
+.under main .list_faq dd span{position: absolute;top: 3px;left: 0;width: 80px;height: 60px;font-weight: bold;text-align:center;line-height: 1em;color:#fff;background: var(--scolor);display: flex;align-items: center;justify-content: center;text-align: center;flex-shrink: 0;font-family: var(--f-lato);border-radius: 5px 30px 30px 5px;font-size: 24px;}
+
+/* LIST STEP */
+.under main .list_step dl{margin-bottom: 35px;padding-bottom: 50px;position: relative;}
+.under main .list_step dl:not(:last-child)::before{background: url('../images/ic-step.png') center /cover no-repeat;width: 80px;height: 30px;position: absolute;bottom: -10px;left: calc(50% - 40px);content: '';}
+.under main .list_step dl:last-child{padding-bottom: 0;margin-bottom: 0}
+.under main .list_step dt{color: var(--scolor);font-size: 24px;font-weight: bold;display: flex;align-items: center;background: var(--green01);}
+.under main .list_step dt span{padding: 15px;width: 160px;border-radius: 0 999px 999px 0;display: inline-block;margin-right: 15px;color: #fff;background: var(--scolor);text-align: center;font-family: var(--f-lato);font-size: 28px;}
+.under main .list_step dd{padding: 30px;background: #f8fed5;box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);}
+
+/*============ FRAME ============ */
+/* FRAME 01 */
+.under main .frame01{border: 6px solid var(--green01);padding: 42px 57px;border-radius:23px;margin-bottom: 50px;background: #fff;}
+
+/* FRAME 02 */
+.under main .frame02{border: 1px solid #e6e6e6;padding: 25px;background: url('../images/frame01_bg.jpg') repeat;margin-bottom: 50px;}
+
+/* FRAME PICKUP */
+.under main .frame_pick{border: 4px solid var(--green01);padding: 0 80px 69px;background: #fbfdf0;border-radius: 40px;margin: 100px 0 59px 96px}
+.under main .frame_pick .pick_ttl{background: var(--green01);border-radius: 6px;color: #fff;font-size: 42px;font-weight: 700;position: relative;margin: -53px 0 50px;padding: 13px 40px;line-height: 1.25em;}
+.under main .frame_pick .pick_ttl::before{position: absolute;top: -92px;left: -185px;width: 220px;height: 220px;background: url('../images/pickup_ttl.png') center /cover no-repeat;content: '';}
+
+/* IFRAME BOX */
+.under main .box_map{width:100%;height:400px}
+.under main .box_ytb{width: 900px;height: auto; margin: 0 auto;aspect-ratio: 16/9;max-width: 100%;}
+.under main .box_map iframe,
+.under main .box_ytb iframe{width:100%;height:100%;border:none;outline: none;}
+
+/* ===========  PAGINATION ===========  */
+.under main .pagination {display: flex;justify-content: center;flex-wrap: wrap;text-align: center;margin: 30px auto 0}
+.under main .pagination li{margin: 0 10px}
+.under main .pagination li a{width:40px;height: 40px;text-align: center;border:1px solid  var(--mcolor);background: #fff;display: flex;color: var(--mcolor);justify-content: center;align-items: center;border-radius: 5px;}
+.under main .pagination li:hover a,
+.under main .pagination li.active a{background: var(--mcolor);color: #fff;}
+.under main .pagination li.active a{pointer-events: none;}
+.under main .pagination li.disabled {display: none}
+
+/* ===========  OVERNOTE ===========  */
+.break_w {
+    word-break: break-all;
+}
+.under main .btn_list .is_none a::before{display: none;}
+.under main .list_ovn {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+.under main .list_ovn li{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid var(--green01);
+    padding: 15px;
+    border-radius: 5px;
+    transition: all .3s ease;
+    word-break: break-all;
+    background-color: #fff;
+}
+.under main .list_ovn li:hover {
+    background-color: var(--green03);
+}
+.under main .list_ovn li .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green02);
+    height: 163px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 12px;
+    aspect-ratio: 230/153;
+}
+.under main .list_ovn li .img img {
+    width: auto;
+    max-height: 100%;
+}
+.under main .list_ovn li .ovn_title{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5em;
+    color: var(--txt);
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2;
+   -webkit-box-orient: vertical;
+   min-height: 54px;
+   margin-bottom: 3px;
+}
+.under main .list_ovn li .date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    color: var(--green01);
+    font-weight: bold;
+}
+.under main .list_ovn li a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.under.ovn main  .image_center {
+    text-align: center;
+}
+.under.ovn main  .image_center img{
+    max-height: 400px;
+}
+.under.ovn_dt main .image_l img,.under.ovn_dt main .image_r img{
+    max-height: 400px;
+}
+.under.ovn_dt main  .btn_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.under.ovn_dt main  .btn_list .btn:not(:last-child){
+    margin-right: 20px;
+}
+
+.under.ovn_dt main  .ovn_dt_dect li{
+    list-style: inherit;
+}
+
+/* fmail */
+.ft_info_tel.bnn_tel {
+    border: 4px solid var(--green01);
+    display: inline-block;
+    padding: 20px 70px;
+    border-radius: 10px;
+    background-color: var(--green02);
+}
+.ft_info_tel.bnn_tel a{
+    font-size: 50px;
+}
+.ft_info_tel.bnn_tel .time{
+    color: var(--scolor);
+    font-size: 24px;
+}
+/* RESET */
+.under main table:last-child,
+.under main .list_faq:last-child,
+.under main .list_faq dl:last-child,
+.under main .list01:last-child,
+.under main .list01 li:last-child,
+.under main .list02:last-child,
+.under main .list02 li:last-child,
+.under main .list_check:last-child,
+.under main .list_check li:last-child,
+.under main .list_step:last-child,
+.under main .list_step dl:last-child,
+.under main section p:last-child,
+.under main p:last-child,
+.under main .frame01:last-child,
+.under main .frame02:last-child,
+.under main .frame_pick:last-child{margin-bottom: 0}
+
+
+/* EGDE */
+@supports (-ms-ime-align: auto) {
+}
+
+/* FIREFOX */
+@-moz-document url-prefix() {
+}
+
+/* Safari 10.1+ (which is the latest version of Safari at this time) */
+@media not all and (min-resolution: 0.001dpcm) {
+}
