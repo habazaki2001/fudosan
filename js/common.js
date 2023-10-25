@@ -63,11 +63,11 @@ $(document).ready(function() {
         $(this).toggleClass("is_active");
         $("nav").fadeToggle(100);
         if( $(this).hasClass("is_active")) {
-            $("body").css("overflow","hidden")
+            // $("body").css("overflow","hidden")
             $('.to_top').removeClass('show');
         }
         else {
-            $("body").css("overflow","unset")
+            // $("body").css("overflow","unset")
             $('.to_top').addClass('show');
         }
     });
